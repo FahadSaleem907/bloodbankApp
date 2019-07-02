@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FA24D68F5610C91ABE6669 /* Pods_BloodBankAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4202B3DE2784B6203A02663 /* Pods_BloodBankAppUITests.framework */; };
+		46517A1D95B8F49764BA6026 /* Pods_BloodBankAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA51250C88F01F11D9932C0 /* Pods_BloodBankAppTests.framework */; };
+		6F1499868579EB2AEDFBC1C6 /* Pods_BloodBankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E51D3F4225DD58BC4CE01 /* Pods_BloodBankApp.framework */; };
+		E31308F0214CFDE20055BB48 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31308EF214CFDE20055BB48 /* DesignableTextField.swift */; };
+		E31308F2214D062E0055BB48 /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31308F1214D062E0055BB48 /* DesignableUIButton.swift */; };
+		E36DE2D520C888A3003DF30C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DE2D420C888A3003DF30C /* AppDelegate.swift */; };
+		E36DE2D720C888A3003DF30C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DE2D620C888A3003DF30C /* LoginViewController.swift */; };
+		E36DE2DA20C888A3003DF30C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DE2D820C888A3003DF30C /* Main.storyboard */; };
+		E36DE2DC20C888A3003DF30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36DE2DB20C888A3003DF30C /* Assets.xcassets */; };
+		E36DE2DF20C888A3003DF30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36DE2DD20C888A3003DF30C /* LaunchScreen.storyboard */; };
+		E36DE2EA20C888A3003DF30C /* BloodBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DE2E920C888A3003DF30C /* BloodBankAppTests.swift */; };
+		E36DE2F520C888A3003DF30C /* BloodBankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DE2F420C888A3003DF30C /* BloodBankAppUITests.swift */; };
+		E36DE30A20C8B65C003DF30C /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36DE30920C8B65C003DF30C /* UserListViewController.swift */; };
+		E37E654E21515E110000619E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37E654D21515D410000619E /* GoogleService-Info.plist */; };
+		E37F3FC52171B2E5007A2272 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F3FC42171B2E5007A2272 /* MainTabBarController.swift */; };
+		E38524BB214DA7F400A56998 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38524BA214DA7F400A56998 /* DesignableLabel.swift */; };
+		E38524BD214DAD4F00A56998 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38524BC214DAD4F00A56998 /* DesignableImageView.swift */; };
+		E38524BF214DAF0B00A56998 /* PInfoSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38524BE214DAF0B00A56998 /* PInfoSignUpViewController.swift */; };
+		E39733F721848BE800AED5EE /* ResetPwUsingPwPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39733F621848BE800AED5EE /* ResetPwUsingPwPopUpViewController.swift */; };
+		E3A1A6E4214C3B0D00F7C718 /* DesignableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1A6E3214C3B0D00F7C718 /* DesignableUIView.swift */; };
+		E3A97A5A2152C97200A0EB7B /* ResetPwPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A97A592152C97200A0EB7B /* ResetPwPopUpViewController.swift */; };
+		E3C381AB20D01CC400DA7A12 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C381AA20D01CC400DA7A12 /* Users.swift */; };
+		E3C381AD20D01D1400DA7A12 /* UsersProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C381AC20D01D1400DA7A12 /* UsersProfileViewController.swift */; };
+		E3DF6B0521AC387000902BB8 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF6B0421AC387000902BB8 /* Brain.swift */; };
+		E3DFCFAE21525C0D00FFDA76 /* CInfoSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DFCFAD21525C0D00FFDA76 /* CInfoSignUpViewController.swift */; };
+		E3DFCFB021525C3D00FFDA76 /* AInfoSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DFCFAF21525C3D00FFDA76 /* AInfoSignUpViewController.swift */; };
+		E3DFCFB221526C1700FFDA76 /* DesignableUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DFCFB121526C1700FFDA76 /* DesignableUITextView.swift */; };
+		E3E2E4A120C9EEF3000B96A9 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2E4A020C9EEF3000B96A9 /* PasswordResetViewController.swift */; };
+		E3E2E4A320C9F00C000B96A9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2E4A220C9F00C000B96A9 /* ProfileViewController.swift */; };
+		E3ECB3CF2184C520008F3CAB /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ECB3CE2184C520008F3CAB /* EditProfileViewController.swift */; };
+		E3F4BE02214E5F1D00CC0503 /* DesignableSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F4BE01214E5F1D00CC0503 /* DesignableSegments.swift */; };
+		E3F9FD56215798730081F2EB /* UserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9FD55215798730081F2EB /* UserTypeViewController.swift */; };
+		E3FAFD0720CC0217004CC351 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FAFD0620CC0217004CC351 /* ProfileTableViewCell.swift */; };
+		E3FAFD0920CC0CB4004CC351 /* EnumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FAFD0820CC0CB4004CC351 /* EnumsViewController.swift */; };
+		E3FFC0B52155185B00EF019D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFC0B42155185B00EF019D /* AlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E36DE2E620C888A3003DF30C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36DE2C920C888A3003DF30C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36DE2D020C888A3003DF30C;
+			remoteInfo = BloodBankApp;
+		};
+		E36DE2F120C888A3003DF30C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36DE2C920C888A3003DF30C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36DE2D020C888A3003DF30C;
+			remoteInfo = BloodBankApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA51250C88F01F11D9932C0 /* Pods_BloodBankAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5A88277539FB8E05412025 /* Pods-BloodBankAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankAppUITests/Pods-BloodBankAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63EEDAD869D6197A9B3BD911 /* Pods-BloodBankAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankAppTests/Pods-BloodBankAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		883E51D3F4225DD58BC4CE01 /* Pods_BloodBankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6CDC2D50B70E41340C4DEB /* Pods-BloodBankAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankAppTests/Pods-BloodBankAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABB80D6B09E614CC06E21C64 /* Pods-BloodBankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp.release.xcconfig"; sourceTree = "<group>"; };
+		CC019E0AD7773445176C6FE2 /* Pods-BloodBankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4202B3DE2784B6203A02663 /* Pods_BloodBankAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03BEABD604F2F021252EA81 /* Pods-BloodBankAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankAppUITests/Pods-BloodBankAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31308EF214CFDE20055BB48 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		E31308F1214D062E0055BB48 /* DesignableUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
+		E36DE2D120C888A3003DF30C /* BloodBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36DE2D420C888A3003DF30C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E36DE2D620C888A3003DF30C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E36DE2D920C888A3003DF30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E36DE2DB20C888A3003DF30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E36DE2DE20C888A3003DF30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E36DE2E020C888A3003DF30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36DE2E520C888A3003DF30C /* BloodBankAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36DE2E920C888A3003DF30C /* BloodBankAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankAppTests.swift; sourceTree = "<group>"; };
+		E36DE2EB20C888A3003DF30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36DE2F020C888A3003DF30C /* BloodBankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36DE2F420C888A3003DF30C /* BloodBankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankAppUITests.swift; sourceTree = "<group>"; };
+		E36DE2F620C888A3003DF30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36DE30920C8B65C003DF30C /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		E37E654D21515D410000619E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E37F3FC42171B2E5007A2272 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E38524BA214DA7F400A56998 /* DesignableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		E38524BC214DAD4F00A56998 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		E38524BE214DAF0B00A56998 /* PInfoSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PInfoSignUpViewController.swift; sourceTree = "<group>"; };
+		E39733F621848BE800AED5EE /* ResetPwUsingPwPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPwUsingPwPopUpViewController.swift; sourceTree = "<group>"; };
+		E3A1A6E3214C3B0D00F7C718 /* DesignableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIView.swift; sourceTree = "<group>"; };
+		E3A97A592152C97200A0EB7B /* ResetPwPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPwPopUpViewController.swift; sourceTree = "<group>"; };
+		E3C381AA20D01CC400DA7A12 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E3C381AC20D01D1400DA7A12 /* UsersProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileViewController.swift; sourceTree = "<group>"; };
+		E3DF6B0421AC387000902BB8 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		E3DFCFAD21525C0D00FFDA76 /* CInfoSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CInfoSignUpViewController.swift; sourceTree = "<group>"; };
+		E3DFCFAF21525C3D00FFDA76 /* AInfoSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AInfoSignUpViewController.swift; sourceTree = "<group>"; };
+		E3DFCFB121526C1700FFDA76 /* DesignableUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextView.swift; sourceTree = "<group>"; };
+		E3E2E4A020C9EEF3000B96A9 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		E3E2E4A220C9F00C000B96A9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E3ECB3CE2184C520008F3CAB /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		E3F4BE01214E5F1D00CC0503 /* DesignableSegments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableSegments.swift; sourceTree = "<group>"; };
+		E3F9FD55215798730081F2EB /* UserTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypeViewController.swift; sourceTree = "<group>"; };
+		E3FAFD0620CC0217004CC351 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		E3FAFD0820CC0CB4004CC351 /* EnumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsViewController.swift; sourceTree = "<group>"; };
+		E3FFC0B42155185B00EF019D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E36DE2CE20C888A3003DF30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1499868579EB2AEDFBC1C6 /* Pods_BloodBankApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2E220C888A3003DF30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46517A1D95B8F49764BA6026 /* Pods_BloodBankAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2ED20C888A3003DF30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FA24D68F5610C91ABE6669 /* Pods_BloodBankAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3343E208C535520C40F21393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883E51D3F4225DD58BC4CE01 /* Pods_BloodBankApp.framework */,
+				0DA51250C88F01F11D9932C0 /* Pods_BloodBankAppTests.framework */,
+				D4202B3DE2784B6203A02663 /* Pods_BloodBankAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EF37361BCE48F75CF39D102 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC019E0AD7773445176C6FE2 /* Pods-BloodBankApp.debug.xcconfig */,
+				ABB80D6B09E614CC06E21C64 /* Pods-BloodBankApp.release.xcconfig */,
+				63EEDAD869D6197A9B3BD911 /* Pods-BloodBankAppTests.debug.xcconfig */,
+				9B6CDC2D50B70E41340C4DEB /* Pods-BloodBankAppTests.release.xcconfig */,
+				E03BEABD604F2F021252EA81 /* Pods-BloodBankAppUITests.debug.xcconfig */,
+				1C5A88277539FB8E05412025 /* Pods-BloodBankAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E36DE2C820C888A3003DF30C = {
+			isa = PBXGroup;
+			children = (
+				E36DE2D320C888A3003DF30C /* BloodBankApp */,
+				E36DE2E820C888A3003DF30C /* BloodBankAppTests */,
+				E36DE2F320C888A3003DF30C /* BloodBankAppUITests */,
+				E36DE2D220C888A3003DF30C /* Products */,
+				4EF37361BCE48F75CF39D102 /* Pods */,
+				3343E208C535520C40F21393 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E36DE2D220C888A3003DF30C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36DE2D120C888A3003DF30C /* BloodBankApp.app */,
+				E36DE2E520C888A3003DF30C /* BloodBankAppTests.xctest */,
+				E36DE2F020C888A3003DF30C /* BloodBankAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36DE2D320C888A3003DF30C /* BloodBankApp */ = {
+			isa = PBXGroup;
+			children = (
+				E3A1A6E0214C366200F7C718 /* Utility */,
+				E36DE30420C888C9003DF30C /* Model */,
+				E36DE30320C888C3003DF30C /* View */,
+				E36DE30220C888BB003DF30C /* Controller */,
+				E36DE2D420C888A3003DF30C /* AppDelegate.swift */,
+				E36DE2DB20C888A3003DF30C /* Assets.xcassets */,
+				E36DE2E020C888A3003DF30C /* Info.plist */,
+				E37E654D21515D410000619E /* GoogleService-Info.plist */,
+			);
+			path = BloodBankApp;
+			sourceTree = "<group>";
+		};
+		E36DE2E820C888A3003DF30C /* BloodBankAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E36DE2E920C888A3003DF30C /* BloodBankAppTests.swift */,
+				E36DE2EB20C888A3003DF30C /* Info.plist */,
+			);
+			path = BloodBankAppTests;
+			sourceTree = "<group>";
+		};
+		E36DE2F320C888A3003DF30C /* BloodBankAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E36DE2F420C888A3003DF30C /* BloodBankAppUITests.swift */,
+				E36DE2F620C888A3003DF30C /* Info.plist */,
+			);
+			path = BloodBankAppUITests;
+			sourceTree = "<group>";
+		};
+		E36DE30220C888BB003DF30C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E36DE2D620C888A3003DF30C /* LoginViewController.swift */,
+				E36DE30920C8B65C003DF30C /* UserListViewController.swift */,
+				E3E2E4A220C9F00C000B96A9 /* ProfileViewController.swift */,
+				E3C381AC20D01D1400DA7A12 /* UsersProfileViewController.swift */,
+				E38524BE214DAF0B00A56998 /* PInfoSignUpViewController.swift */,
+				E3DFCFAD21525C0D00FFDA76 /* CInfoSignUpViewController.swift */,
+				E3DFCFAF21525C3D00FFDA76 /* AInfoSignUpViewController.swift */,
+				E3F9FD55215798730081F2EB /* UserTypeViewController.swift */,
+				E37F3FC42171B2E5007A2272 /* MainTabBarController.swift */,
+				E3E2E4A020C9EEF3000B96A9 /* PasswordResetViewController.swift */,
+				E3A97A592152C97200A0EB7B /* ResetPwPopUpViewController.swift */,
+				E39733F621848BE800AED5EE /* ResetPwUsingPwPopUpViewController.swift */,
+				E3ECB3CE2184C520008F3CAB /* EditProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E36DE30320C888C3003DF30C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E36DE2D820C888A3003DF30C /* Main.storyboard */,
+				E36DE2DD20C888A3003DF30C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E36DE30420C888C9003DF30C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3FAFD0620CC0217004CC351 /* ProfileTableViewCell.swift */,
+				E3DF6B0421AC387000902BB8 /* Brain.swift */,
+				E3FAFD0820CC0CB4004CC351 /* EnumsViewController.swift */,
+				E3C381AA20D01CC400DA7A12 /* Users.swift */,
+				E3FFC0B42155185B00EF019D /* AlertViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3A1A6E0214C366200F7C718 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E3A1A6E3214C3B0D00F7C718 /* DesignableUIView.swift */,
+				E31308EF214CFDE20055BB48 /* DesignableTextField.swift */,
+				E31308F1214D062E0055BB48 /* DesignableUIButton.swift */,
+				E38524BA214DA7F400A56998 /* DesignableLabel.swift */,
+				E38524BC214DAD4F00A56998 /* DesignableImageView.swift */,
+				E3F4BE01214E5F1D00CC0503 /* DesignableSegments.swift */,
+				E3DFCFB121526C1700FFDA76 /* DesignableUITextView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E36DE2D020C888A3003DF30C /* BloodBankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36DE2F920C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankApp" */;
+			buildPhases = (
+				F00ED9104665366CDA9D3A53 /* [CP] Check Pods Manifest.lock */,
+				E36DE2CD20C888A3003DF30C /* Sources */,
+				E36DE2CE20C888A3003DF30C /* Frameworks */,
+				E36DE2CF20C888A3003DF30C /* Resources */,
+				1119FC4239BC2C2B95CCDBB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodBankApp;
+			productName = BloodBankApp;
+			productReference = E36DE2D120C888A3003DF30C /* BloodBankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E36DE2E420C888A3003DF30C /* BloodBankAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36DE2FC20C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankAppTests" */;
+			buildPhases = (
+				E2A327E7936DD902AA07D42E /* [CP] Check Pods Manifest.lock */,
+				E36DE2E120C888A3003DF30C /* Sources */,
+				E36DE2E220C888A3003DF30C /* Frameworks */,
+				E36DE2E320C888A3003DF30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E36DE2E720C888A3003DF30C /* PBXTargetDependency */,
+			);
+			name = BloodBankAppTests;
+			productName = BloodBankAppTests;
+			productReference = E36DE2E520C888A3003DF30C /* BloodBankAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E36DE2EF20C888A3003DF30C /* BloodBankAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36DE2FF20C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankAppUITests" */;
+			buildPhases = (
+				57ECD48118FCA3104FDC8CD1 /* [CP] Check Pods Manifest.lock */,
+				E36DE2EC20C888A3003DF30C /* Sources */,
+				E36DE2ED20C888A3003DF30C /* Frameworks */,
+				E36DE2EE20C888A3003DF30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E36DE2F220C888A3003DF30C /* PBXTargetDependency */,
+			);
+			name = BloodBankAppUITests;
+			productName = BloodBankAppUITests;
+			productReference = E36DE2F020C888A3003DF30C /* BloodBankAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36DE2C920C888A3003DF30C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = HomePractice;
+				TargetAttributes = {
+					E36DE2D020C888A3003DF30C = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					E36DE2E420C888A3003DF30C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E36DE2D020C888A3003DF30C;
+					};
+					E36DE2EF20C888A3003DF30C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E36DE2D020C888A3003DF30C;
+					};
+				};
+			};
+			buildConfigurationList = E36DE2CC20C888A3003DF30C /* Build configuration list for PBXProject "BloodBankApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E36DE2C820C888A3003DF30C;
+			productRefGroup = E36DE2D220C888A3003DF30C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36DE2D020C888A3003DF30C /* BloodBankApp */,
+				E36DE2E420C888A3003DF30C /* BloodBankAppTests */,
+				E36DE2EF20C888A3003DF30C /* BloodBankAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36DE2CF20C888A3003DF30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36DE2DF20C888A3003DF30C /* LaunchScreen.storyboard in Resources */,
+				E37E654E21515E110000619E /* GoogleService-Info.plist in Resources */,
+				E36DE2DC20C888A3003DF30C /* Assets.xcassets in Resources */,
+				E36DE2DA20C888A3003DF30C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2E320C888A3003DF30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2EE20C888A3003DF30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1119FC4239BC2C2B95CCDBB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankApp/Pods-BloodBankApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57ECD48118FCA3104FDC8CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodBankAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A327E7936DD902AA07D42E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodBankAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00ED9104665366CDA9D3A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodBankApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36DE2CD20C888A3003DF30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3ECB3CF2184C520008F3CAB /* EditProfileViewController.swift in Sources */,
+				E36DE30A20C8B65C003DF30C /* UserListViewController.swift in Sources */,
+				E3DFCFB221526C1700FFDA76 /* DesignableUITextView.swift in Sources */,
+				E37F3FC52171B2E5007A2272 /* MainTabBarController.swift in Sources */,
+				E3DF6B0521AC387000902BB8 /* Brain.swift in Sources */,
+				E3FAFD0920CC0CB4004CC351 /* EnumsViewController.swift in Sources */,
+				E3DFCFAE21525C0D00FFDA76 /* CInfoSignUpViewController.swift in Sources */,
+				E3C381AB20D01CC400DA7A12 /* Users.swift in Sources */,
+				E3FAFD0720CC0217004CC351 /* ProfileTableViewCell.swift in Sources */,
+				E3A97A5A2152C97200A0EB7B /* ResetPwPopUpViewController.swift in Sources */,
+				E3E2E4A120C9EEF3000B96A9 /* PasswordResetViewController.swift in Sources */,
+				E3DFCFB021525C3D00FFDA76 /* AInfoSignUpViewController.swift in Sources */,
+				E3C381AD20D01D1400DA7A12 /* UsersProfileViewController.swift in Sources */,
+				E3FFC0B52155185B00EF019D /* AlertViewController.swift in Sources */,
+				E3A1A6E4214C3B0D00F7C718 /* DesignableUIView.swift in Sources */,
+				E38524BF214DAF0B00A56998 /* PInfoSignUpViewController.swift in Sources */,
+				E38524BD214DAD4F00A56998 /* DesignableImageView.swift in Sources */,
+				E3E2E4A320C9F00C000B96A9 /* ProfileViewController.swift in Sources */,
+				E3F4BE02214E5F1D00CC0503 /* DesignableSegments.swift in Sources */,
+				E36DE2D720C888A3003DF30C /* LoginViewController.swift in Sources */,
+				E31308F2214D062E0055BB48 /* DesignableUIButton.swift in Sources */,
+				E36DE2D520C888A3003DF30C /* AppDelegate.swift in Sources */,
+				E38524BB214DA7F400A56998 /* DesignableLabel.swift in Sources */,
+				E39733F721848BE800AED5EE /* ResetPwUsingPwPopUpViewController.swift in Sources */,
+				E31308F0214CFDE20055BB48 /* DesignableTextField.swift in Sources */,
+				E3F9FD56215798730081F2EB /* UserTypeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2E120C888A3003DF30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36DE2EA20C888A3003DF30C /* BloodBankAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36DE2EC20C888A3003DF30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36DE2F520C888A3003DF30C /* BloodBankAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E36DE2E720C888A3003DF30C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36DE2D020C888A3003DF30C /* BloodBankApp */;
+			targetProxy = E36DE2E620C888A3003DF30C /* PBXContainerItemProxy */;
+		};
+		E36DE2F220C888A3003DF30C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36DE2D020C888A3003DF30C /* BloodBankApp */;
+			targetProxy = E36DE2F120C888A3003DF30C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E36DE2D820C888A3003DF30C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36DE2D920C888A3003DF30C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E36DE2DD20C888A3003DF30C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36DE2DE20C888A3003DF30C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E36DE2F720C888A3003DF30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E36DE2F820C888A3003DF30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E36DE2FA20C888A3003DF30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC019E0AD7773445176C6FE2 /* Pods-BloodBankApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E36DE2FB20C888A3003DF30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB80D6B09E614CC06E21C64 /* Pods-BloodBankApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E36DE2FD20C888A3003DF30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63EEDAD869D6197A9B3BD911 /* Pods-BloodBankAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodBankApp.app/BloodBankApp";
+			};
+			name = Debug;
+		};
+		E36DE2FE20C888A3003DF30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6CDC2D50B70E41340C4DEB /* Pods-BloodBankAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodBankApp.app/BloodBankApp";
+			};
+			name = Release;
+		};
+		E36DE30020C888A3003DF30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03BEABD604F2F021252EA81 /* Pods-BloodBankAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodBankApp;
+			};
+			name = Debug;
+		};
+		E36DE30120C888A3003DF30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5A88277539FB8E05412025 /* Pods-BloodBankAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomePractice.BloodBankAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodBankApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36DE2CC20C888A3003DF30C /* Build configuration list for PBXProject "BloodBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36DE2F720C888A3003DF30C /* Debug */,
+				E36DE2F820C888A3003DF30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36DE2F920C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36DE2FA20C888A3003DF30C /* Debug */,
+				E36DE2FB20C888A3003DF30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36DE2FC20C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36DE2FD20C888A3003DF30C /* Debug */,
+				E36DE2FE20C888A3003DF30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36DE2FF20C888A3003DF30C /* Build configuration list for PBXNativeTarget "BloodBankAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36DE30020C888A3003DF30C /* Debug */,
+				E36DE30120C888A3003DF30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36DE2C920C888A3003DF30C /* Project object */;
+}
